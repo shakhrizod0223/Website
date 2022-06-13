@@ -1,0 +1,76 @@
+.backimage{
+  background-image: url("./navbar.jpeg");
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar{
+  position: absolute;
+  margin: 20px;
+  width: 100%;
+}
+.topnav a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav > a:hover {
+	color: black;
+}
+.main{
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 650px;
+}
+.about{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text{
+  color: gray;
+  margin-left: 10px;
+}
+
+.guitar{
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.lorem{
+  display: flex;
+  flex-direction: row;
+}
+.text2{
+  color: gray;
+}
+.text3{
+  color: gray;
+}
+.footer{
+  text-align: left;
+}
+
+.generic{
+  margin-left: 5px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-color: aqua;
+}
